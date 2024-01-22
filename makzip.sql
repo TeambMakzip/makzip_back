@@ -1,15 +1,15 @@
 CREATE DATABASE makzip;
 
-DROP DATABASE IF EXISTS `makzip`;
+DROP DATABASE IF EXISTS makzip;
 
-USE makzip;
+
 
 CREATE TABLE Restaurant (
-	id	int	PRIMARY KEY NOT NULL AUTO_INCREMENT,
-	title	varchar(10)	NOT NULL,
-	contents	varchar(100)	NOT NULL,
-	created_at	DATETIME NOT NULL,
-	updated_at	DATETIME NOT NULL,
+	id serial PRIMARY KEY,
+	title varchar(10) NOT NULL,
+	contents varchar(100) NOT NULL,
+	created_at TIMESTAMP NOT NULL,
+	updated_at TIMESTAMP NOT NULL,
 	is_checked BOOLEAN DEFAULT FALSE NOT NULL
 );
 
