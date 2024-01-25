@@ -147,11 +147,19 @@ app.patch("/api/v1/review/:id", async (req, res) => {
       [title, contents, is_checked, id]
     );
 
+    // 수정된 데이터를 다시 조회하여 클라이언트로 전송
+    const updatedResult = await pool.query(
+      "SELECT * FROM Restaurant WHERE id = $1",
+      [id]
+    );  
+    const updatedListrow = updatedResult.rows[0];
+    
     res.json({
       resultCode: "S-1",
       msg: "성공",
-      data: listrow,
+      data: updatedListrow, // 수정된 데이터를 클라이언트로 전송
     });
+    
   } catch (error) {
     console.error(error);
     res.status(500).json({
