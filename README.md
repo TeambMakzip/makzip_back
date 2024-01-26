@@ -10,7 +10,6 @@
 - 2024.01.18 ~ 2024.01.25
 
 ### 배포 주소 
-<a href="https://github.com/TeambMakzip/makzip_front2.git">프론트 깃허브코드</a>
 
 <a href="https://github.com/TeambMakzip/makzip_back.git)https://github.com/TeambMakzip/makzip_back.git">백엔드 깃허브코드</a>
 
