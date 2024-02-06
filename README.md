@@ -11,9 +11,8 @@
 
 ### 배포 주소 
 
-<a href="https://github.com/TeambMakzip/makzip_back.git)https://github.com/TeambMakzip/makzip_back.git">백엔드 깃허브코드</a>
 
-<a href="https://fly.io/apps/makzip-tb">백엔드 서버배포</a>
+<a href="[https://fly.io/apps/makzip-tb](https://makzip-tb.fly.dev/)">https://makzip-tb.fly.dev/</a>
 
 ###  🌽 프로젝트 참여 멤버
 
